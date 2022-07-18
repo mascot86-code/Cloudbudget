@@ -1,0 +1,136 @@
+@media (max-width: 800px) {
+
+  .header {
+    flex-direction: column;
+    padding-top: 10px;
+  }
+
+  .logo {
+    order: 1;
+    align-self: flex-start
+  }
+
+  .menu li {
+    margin-bottom: 15px;
+  }
+
+  .menu {
+    order: 3;
+  }
+
+  .menu-items {
+    justify-content: center;
+  }
+
+  .sign-in {
+    order: 2;
+    align-self: flex-end;
+    margin: -30px 0 50px 0;
+  }
+
+  .about-inner {
+    flex-direction: column-reverse;
+  }
+
+  .about-inner .about-inner-content {
+    width: 100%;
+    margin: 30px 60px 0px 60px;
+    text-align: center;
+  }
+
+  .about-inner-img img {
+    margin-left: 30px;
+  }
+
+  .about-inner-content p {
+    text-align: center;
+  }
+
+  .opportunities-inner {
+    flex-direction: column;
+  }
+
+  .opportunities-item {
+    margin-bottom: 50px;
+  }
+
+  .technology-block-item {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  .download-inner {
+    flex-direction: column-reverse;
+  }
+
+  .download-inner .download-inner-content {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .download-inner-content p {
+    text-align: center;
+  }
+
+  .download-inner-content .class-app {
+    justify-content: center;
+  }
+
+  .contact-block-inner {
+    width: 100%;
+    margin-left: 30px;
+  }
+
+  .form {
+    margin-top: 30px;
+  }
+
+  .footer-inner {
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  header {
+    margin-bottom: 0;
+  }
+
+  .header-content h1 {
+    font-size: 3rem;
+  }
+
+  .header-content h2 {
+    font-size: 1rem;
+  }
+
+  .technology-block-item {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .contact-block-inner {
+    width: 80%;
+  }
+}
+
+@media (max-width: 440px) {
+  .header-content h1 {
+    font-size: 2.3rem;
+  }
+
+  .form input {
+    max-width: 300px;
+  }
+}
+
+
+@media (max-width: 400px) {
+  .header-content h1 {
+    font-size: 2.3rem;
+  }
+
+  .form input {
+    max-width: 300px;
+  }
+}
